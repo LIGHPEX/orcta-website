@@ -151,7 +151,7 @@ const HeroSection = () => {
                         <div className="absolute inset-0 flex items-center justify-center">
                             <div className="w-48 h-48 lg:w-64 lg:h-64 relative">
                                 <img
-                                    src="/api/placeholder/256/256"
+                                    src="/vr.svg"
                                     alt="VR Headset"
                                     className="w-full h-full object-cover"
                                 />
