@@ -126,10 +126,10 @@ const HeroSection = () => {
 
                 <div className="hidden md:flex space-x-4 lg:space-x-8">
                     <Link href="/" className="text-white hover:text-blue-200 text-sm lg:text-base">Home</Link>
-                    <Link href="/who-we-are" className="text-white hover:text-blue-200 text-sm lg:text-base">Who We Are</Link>
-                    <Link href="/what-we-do" className="text-white hover:text-blue-200 text-sm lg:text-base">What We Do</Link>
-                    <Link href="/our-team" className="text-white hover:text-blue-200 text-sm lg:text-base">Our Team</Link>
-                    <Link href="/blog" className="text-white hover:text-blue-200 text-sm lg:text-base">Blog</Link>
+                    <Link href="/pages/about" className="text-white hover:text-blue-200 text-sm lg:text-base">Who We Are</Link>
+                    <Link href="/pages/what-we-do" className="text-white hover:text-blue-200 text-sm lg:text-base">What We Do</Link>
+                    <Link href="/pages/our-team" className="text-white hover:text-blue-200 text-sm lg:text-base">Our Team</Link>
+                    <Link href="/pages/blog" className="text-white hover:text-blue-200 text-sm lg:text-base">Blog</Link>
                 </div>
 
                 <button className="hidden md:block bg-white bg-opacity-10 text-white px-4 lg:px-6 py-2 rounded-full hover:bg-opacity-20 transition-all text-sm lg:text-base">
@@ -143,7 +143,7 @@ const HeroSection = () => {
                     {/* Your existing mobile menu code */}
                     <div className="flex flex-col space-y-4">
                         <Link href="/" className="text-white hover:text-blue-200">Home</Link>
-                        <Link href="/who-we-are" className="text-white hover:text-blue-200">Who We Are</Link>
+                        <Link href="/about" className="text-white hover:text-blue-200">Who We Are</Link>
                         <Link href="/what-we-do" className="text-white hover:text-blue-200">What We Do</Link>
                         <Link href="/our-team" className="text-white hover:text-blue-200">Our Team</Link>
                         <Link href="/blog" className="text-white hover:text-blue-200">Blog</Link>
